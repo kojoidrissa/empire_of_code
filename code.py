@@ -1,4 +1,5 @@
 #Binary count challenge code
+#This was the Challenge to upgrade my base from Level 1 to Lvl 2
 def count_units(number):
     binary = bin(number)
     binary_count = binary.count('1')
@@ -12,4 +13,3 @@ if __name__ == '__main__':
     assert count_units(1022) == 9
 
     print("Use 'Check' to earn sweet rewards!")
-    
